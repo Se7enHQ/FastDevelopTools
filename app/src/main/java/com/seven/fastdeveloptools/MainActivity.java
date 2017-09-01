@@ -7,7 +7,6 @@ import android.widget.Toast;
 /**
  * @Time:2017年9月1日14:24:36
  * @Description协同开发测试
- * @updata:再次提交测试，成功了宋炎就是小傻吊
  */
 public class MainActivity extends AppCompatActivity {
 
@@ -21,8 +20,7 @@ public class MainActivity extends AppCompatActivity {
     public void onWindowFocusChanged(boolean hasFocus) {
         super.onWindowFocusChanged(hasFocus);
         Toast.makeText(MainActivity.this, "宋炎小SB", Toast.LENGTH_LONG);
-        Toast.makeText(MainActivity.this, "宋炎小SB", Toast.LENGTH_LONG);
-
+        Toast.makeText(MainActivity.this, "xxxx", Toast.LENGTH_LONG);
     }
 
 }
