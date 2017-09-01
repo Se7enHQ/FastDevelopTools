@@ -21,6 +21,8 @@ public class MainActivity extends AppCompatActivity {
         super.onWindowFocusChanged(hasFocus);
         Toast.makeText(MainActivity.this, "宋炎小SB", Toast.LENGTH_LONG);
         Toast.makeText(MainActivity.this, "xxxx", Toast.LENGTH_LONG);
+        Toast.makeText(MainActivity.this, "xxxx", Toast.LENGTH_LONG);
+        Toast.makeText(MainActivity.this, "xxxx", Toast.LENGTH_LONG);
     }
 
 }
