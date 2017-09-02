@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public void onWindowFocusChanged(boolean hasFocus) {
         super.onWindowFocusChanged(hasFocus);
-        Toast.makeText(MainActivity.this, "宋炎小SB", Toast.LENGTH_LONG);
+        Toast.makeText(MainActivity.this, "宋炎大SB", Toast.LENGTH_LONG);
         Toast.makeText(MainActivity.this, "xxxx", Toast.LENGTH_LONG);
         Toast.makeText(MainActivity.this, "xxxx", Toast.LENGTH_LONG);
         Toast.makeText(MainActivity.this, "xxxx", Toast.LENGTH_LONG);
