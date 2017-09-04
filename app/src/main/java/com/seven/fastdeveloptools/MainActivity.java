@@ -1,13 +1,9 @@
 package com.seven.fastdeveloptools;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.widget.Toast;
+import android.support.v7.app.AppCompatActivity;
 
-/**
- * @Time:2017年9月1日14:24:36
- * @Description协同开发测试
- */
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -19,10 +15,5 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public void onWindowFocusChanged(boolean hasFocus) {
         super.onWindowFocusChanged(hasFocus);
-        Toast.makeText(MainActivity.this, "宋炎大SB", Toast.LENGTH_LONG);
-        Toast.makeText(MainActivity.this, "xxxx", Toast.LENGTH_LONG);
-        Toast.makeText(MainActivity.this, "xxxx", Toast.LENGTH_LONG);
-        Toast.makeText(MainActivity.this, "xxxx", Toast.LENGTH_LONG);
     }
-
 }
